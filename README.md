@@ -5,16 +5,7 @@
 - 설치
 
   ```terminal
-  npm install @mui/material @emotion/react @emotioin/styled
-  ```
-  
-  index.js
-
-  ```js
-  import '@fontsource/roboto/300.css';
-  import '@fontsource/roboto/400.css';
-  import '@fontsource/roboto/500.css';
-  import '@fontsource/roboto/700.css';
+  npm install @mui/material @emotion/react @emotion/styled
   ```
   아이콘을 위한 모듈
   ```terminal
