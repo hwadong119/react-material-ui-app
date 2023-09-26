@@ -1,5 +1,5 @@
 import { AddShoppingCart, Drafts, Home, Inbox } from '@mui/icons-material'
-import { Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material'
+import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
 import React from 'react'
 
 const LeftBody = () => {
@@ -13,28 +13,36 @@ const LeftBody = () => {
       <Box position='fixed'>
         <List>
           <ListItem disablePadding>
-            <ListItemIcon>
-              <Home />
-            </ListItemIcon>
-            <ListItemText primary='Home' />
+            <ListItemButton>
+              <ListItemIcon>
+                <Home />
+              </ListItemIcon>
+              <ListItemText primary='Home' />
+            </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemIcon>
-              <Inbox />
-            </ListItemIcon>
-            <ListItemText primary='Inbox' />
+            <ListItemButton>
+              <ListItemIcon>
+                <Inbox />
+              </ListItemIcon>
+              <ListItemText primary='Inbox' />
+            </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemIcon>
-              <Drafts />
-            </ListItemIcon>
-            <ListItemText primary='Drafts' />
+            <ListItemButton>
+              <ListItemIcon>
+                <Drafts />
+              </ListItemIcon>
+              <ListItemText primary='Drafts' />
+            </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemIcon>
-              <AddShoppingCart />
-            </ListItemIcon>
-            <ListItemText primary='shopping' />
+            <ListItemButton>
+              <ListItemIcon>
+                <AddShoppingCart />
+              </ListItemIcon>
+              <ListItemText primary='shopping' />
+            </ListItemButton>  
           </ListItem>
         </List>
       </Box>
